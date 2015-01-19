@@ -1,3 +1,0 @@
----
----
-{{ site.name }} == {{ site.title }}
