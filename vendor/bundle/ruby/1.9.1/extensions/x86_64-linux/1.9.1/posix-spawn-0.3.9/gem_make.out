@@ -1,0 +1,12 @@
+/usr/bin/ruby1.9.1 -r ./siteconf20150117-10566-p5qwc6.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling posix-spawn.c
+linking shared-object posix_spawn_ext.so
+
+make  install
+/usr/bin/install -c -m 0755 posix_spawn_ext.so .gem.20150117-10566-1frsq3a
+installing default posix_spawn_ext libraries

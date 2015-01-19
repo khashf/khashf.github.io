@@ -1,0 +1,21 @@
+/usr/bin/ruby1.9.1 -r ./siteconf20150117-10566-ow43bq.rb extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling porter.c
+porter.c: In function ‘step5’:
+porter.c:359:27: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+       if (a > 1 || a == 1 && !cvc(z, z->k - 1)) z->k--;
+                           ^
+compiling porter_wrap.c
+porter_wrap.c: In function ‘stem_word’:
+porter_wrap.c:20:17: warning: unused variable ‘i’ [-Wunused-variable]
+  size_t length, i;
+                 ^
+linking shared-object stemmer.so
+
+make  install
+/usr/bin/install -c -m 0755 stemmer.so .gem.20150117-10566-1boujjn
+installing default stemmer libraries

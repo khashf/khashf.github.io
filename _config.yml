@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Note of Khuong
 locale:           en_US
 url:              
 
@@ -26,10 +26,10 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: Khuong C. Luu
+  avatar: Khuongluuxautrai.png
+  bio: "programmer, nerd learner, reading hobbyist, table tennis player and, sometimes, noob DotA player"
+  email: khashf79@gmail.com
   disqus-shortname: 
   twitter: #username
   facebook: #username
@@ -40,8 +40,8 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
+  github: khashf
+  stackoverflow: 4039223/khashf
   linkedin: #username
   instagram: #username
   lastfm: #username
@@ -56,4 +56,4 @@ owner:
   flickr: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
